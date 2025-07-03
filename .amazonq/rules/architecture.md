@@ -1,3 +1,8 @@
+---
+description: Architecture for the application.
+alwaysApply: true
+---
+
 # 🏗️ Architecture: Supabase Auth App
 
 **Status**: 🟢 ACTIVE  

@@ -59,7 +59,3 @@ node_modules/
 # OS specific
 
 .amazonq/*.json
-
-# Task files
-tasks.json
-tasks/ 

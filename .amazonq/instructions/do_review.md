@@ -26,7 +26,7 @@ Guidelines for reviewing completed work and maintaining a status report that doc
      * Categorize issues (e.g. logic bug, UI mismatch, API inconsistency).
   4. **Divergences from Original Plan:**
 
-     * Note any implementation changes from the initial todo list.
+     * Note any implementation changes from the initial todo list, implementation spec, and the ticket.
      * Justify the deviation (e.g. edge case discovered, UX improvement, design pivot).
   5. **Suggested Follow-up Actions:**
 

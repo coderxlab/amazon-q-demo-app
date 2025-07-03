@@ -1,6 +1,6 @@
 ---
 description: Guidelines for orchestrating prompts during feature development
-alwaysApply: true
+alwaysApply: false
 ---
 
 # 🧠 Rule: Development Process Prompt Invocation
