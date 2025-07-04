@@ -1,4 +1,4 @@
-## Demo Workflows for Developer
+## Demo Workflows for Developer When Using AmazonQ
 This repository contains demo workflows for Developer that showcase how to use AI tools to assist in various tasks such as pulling Jira Ticket, reading Figma Design, creating Implementation Plan & Todo List, excecuting the implementation step and review. 
 
 **Please watch the [demo video](https://vimeo.com/manage/videos/1098697505/6dadcf4ab8) to see how the workflow is executed (NOTE: If watch at 2x speed, it takes only 10min :)**
