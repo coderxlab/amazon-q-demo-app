@@ -28,7 +28,9 @@ This repository contains demo workflows for Developer that showcase how to use A
 | Architecture File  (provides Project Context)           | `.amazonq/rules/architecture.md`                            |
 
 #### 📁 Detailed workflow
-![iScreen Shoter - 20250704141548939](https://github.com/user-attachments/assets/f416fef3-fed7-446b-ad16-997bf9ac0edb)
+
+![highlight](https://github.com/user-attachments/assets/19eaaf5f-61bd-4b83-af7e-ac10d9c8238b)
+
 
 ### MCP Setup
 - To run the MCP servers, you need to set up the following configurations in your `mcp.json` file. This file should be placed in the `.amazonq` directory of your project.
