@@ -1,5 +1,6 @@
 # RULE: Work Review and Status Reporting
 
+
 Guidelines for reviewing completed work and maintaining a status report that documents what has been done, what remains, and any potential issues or divergences from plan.
 
 ## Review Process
