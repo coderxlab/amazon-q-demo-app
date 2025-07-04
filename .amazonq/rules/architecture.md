@@ -6,7 +6,7 @@ alwaysApply: true
 # 🏗️ Architecture: Supabase Auth App
 
 **Status**: 🟢 ACTIVE  
-**Last Updated**: 2025-07-03
+**Last Updated**: 2025-01-27
 **Author(s)**: Developer
 
 ---
@@ -28,6 +28,10 @@ alwaysApply: true
 | **Frontend**  | Next.js            | React Framework       | App Router               |
 |               | TypeScript         | Type Safety           | Latest                   |
 |               | React              | UI Library            | 18+                      |
+|               | React Hook Form    | Form Management       | Form validation          |
+|               | Yup                | Schema Validation     | Form validation          |
+|               | Tailwind CSS       | Styling Framework     | Custom design system     |
+|               | Montserrat Font    | Typography            | Google Fonts             |
 | **Backend**   | Next.js API Routes | Server-side Logic     | Built-in API             |
 |               | Supabase Auth      | Authentication        | SSR with cookies         |
 | **Database**  | PostgreSQL         | Relational DB         | via Supabase             |
@@ -217,11 +221,18 @@ graph TD
   ├── app/                    # Next.js App Router
   │   ├── api/auth/          # Authentication API routes
   │   ├── login/             # Login page
+  │   ├── register/          # Registration page
   │   └── middleware.ts      # Auth middleware
+  ├── components/
+  │   └── auth/              # Authentication components
+  │       └── RegistrationForm.tsx
   ├── lib/
   │   ├── supabase/
   │   │   ├── client.ts      # Browser client
   │   │   └── server.ts      # Server client
+  ├── public/
+  │   ├── icons/             # Form icons (user, email, password, eye)
+  │   └── images/            # Background assets
   ├── supabase/
   │   └── migrations/        # Database migrations
   └── .env.local            # Environment variables
@@ -233,6 +244,10 @@ graph TD
 2. **Cookie handling** - Only use `getAll()` and `setAll()` methods
 3. **RLS policies** - Enable on all tables, separate policies per operation
 4. **Migration naming** - Follow `YYYYMMDDHHmmss_description.sql` format
+5. **Form validation** - Use React Hook Form with Yup schemas
+6. **Design consistency** - Match Figma designs exactly
+7. **Component structure** - Reusable components in `/components/auth/`
+8. **Asset organization** - Icons in `/public/icons/`, images in `/public/images/`
 
 ---
 
@@ -263,10 +278,15 @@ npm run dev
 
 * **Secure Authentication**: Server-side session management with HTTP-only cookies
 * **User Profiles**: Extended user data beyond basic auth
+* **Registration Form**: Figma-designed registration with comprehensive validation
+* **Form Management**: React Hook Form with Yup schema validation
+* **Design System**: Custom Tailwind configuration with Montserrat typography
 * **Database Security**: Row Level Security ensures data isolation
 * **Local Development**: Full Supabase stack running locally
 * **Type Safety**: TypeScript throughout the application
 * **Migration System**: Version-controlled database schema changes
+* **Responsive Design**: Mobile-first approach with touch interactions
+* **Comprehensive Testing**: Unit tests for form validation and component behavior
 
 ---
 
