@@ -12,6 +12,10 @@ This repository contains demo workflows for Developer that showcase how to use A
   
 ![iScreen Shoter - Code - 250704094928](https://github.com/user-attachments/assets/e7c627fd-892c-4a90-9d13-e917639807e7)
 
+- **Demo Video**:
+  
+https://vimeo.com/manage/videos/1098697505/6dadcf4ab8
+
 ### MCP Setup
 - To run the MCP servers, you need to set up the following configurations in your `mcp.json` file. This file should be placed in the `.amazonq` directory of your project.
 
