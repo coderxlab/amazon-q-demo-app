@@ -74,6 +74,7 @@ https://vimeo.com/manage/videos/1098697505/6dadcf4ab8
 - Make sure to follow the guide to setup for Jira & Figma credentials:
 
 **Jira**: https://github.com/sooperset/mcp-atlassian
+
 **Figma**: https://github.com/GLips/Figma-Context-MCP
   
 
