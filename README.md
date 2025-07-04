@@ -1,16 +1,20 @@
 ## Demo Workflows for Developer
-This repository contains demo workflows for Developer that showcase how to use AI tools to assist in various tasks such as pulling Jira Ticket, reading Figma Design, creating Implementation Plan & Todo List, excecuting the implementation step and review, and writing test cases
+This repository contains demo workflows for Developer that showcase how to use AI tools to assist in various tasks such as pulling Jira Ticket, reading Figma Design, creating Implementation Plan & Todo List, excecuting the implementation step and review. 
+
+**Please watch the [demo video](https://vimeo.com/manage/videos/1098697505/6dadcf4ab8) to see how the workflow is executed (NOTE: If watch 2x, it takes only)**
+**Code in the demo video is here: https://github.com/coderxlab/amazon-q-demo-app/pull/2**
 
 ### Features
 - **Demo Project Overview**: A Next.js application with Supabase authentication and user profiles.
 - **AI-Assisted Development**: Code generation, architecture guidance, and implementation specifications
 - **Document Templates**: Jira ticket templates, implementation specs, and todo lists
-- **MCP Integration**: Supabase Postgres database, Jira, and Figma
+- **MCP Integration**: Supabase Postgres database, Jira, Figma, and playwright
 
 ### Demo Project Overview
 - The diagram below illustrates the workflow for the demo project, starting from reading the ticket on Jira to the feature implementation and testing.
-  
-![iScreen Shoter - Code - 250704094928](https://github.com/user-attachments/assets/e7c627fd-892c-4a90-9d13-e917639807e7)
+
+![iScreen Shoter - 20250704141548939](https://github.com/user-attachments/assets/f69ac7f4-04a7-44f9-8454-352e5fb7859c)
+
 
 - **Demo Video**:
   
@@ -21,7 +25,11 @@ https://vimeo.com/manage/videos/1098697505/6dadcf4ab8
 
 ```json
 {
-  "mcpServers": {
+  "mcpServers": 
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"]
+    },
     "supabase": {
         "command": "npx",
         "args": ["-y", "@modelcontextprotocol/server-postgres", "postgresql://postgres:postgres@127.0.0.1:54322/postgres"]
