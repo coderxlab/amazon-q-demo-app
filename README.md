@@ -71,6 +71,11 @@ https://vimeo.com/manage/videos/1098697505/6dadcf4ab8
   }
 }
 ```
+- Make sure to follow the guide to setup for Jira & Figma credentials:
+
+**Jira**: https://github.com/sooperset/mcp-atlassian
+**Figma**: https://github.com/GLips/Figma-Context-MCP
+  
 
 ### Document Template
 - The document templates for Confluenece documents / Jira tickets are located in the `.amazonq/templates` directory. You can customize these templates to fit your project requirements.
