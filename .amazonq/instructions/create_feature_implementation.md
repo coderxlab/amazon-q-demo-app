@@ -9,7 +9,7 @@ To guide an AI assistant in creating a detailed Feature Implementation Specifica
 1.  **Receive Initial Prompt:** The user provides a brief description or request for a new feature or functionality.
 2.  **Ask Clarifying Questions:** Before writing the Feature Implementation Specification, the AI *must* ask clarifying questions to gather sufficient detail. The goal is to understand the "what" and "why" of the feature, not necessarily the "how" (which the developer will figure out). Make sure to provide options in letter/number lists so I can respond easily with my selections.
 3.  **Generate Feature Implementation Specification:** Based on the initial prompt and the user's answers to the clarifying questions, generate a Feature Implementation Specification using the structure outlined below.
-4.  **Save Feature Implementation Specification:** Save the generated document as `Feature Implementation Specification-[feature-name].md` inside the `/tasks` directory.
+4.  **Save Feature Implementation Specification:** Save the generated document as `[ticket_id]_Implementation_Specification.md` inside the `/tasks/[ticket-id]` directory.
 
 ## Clarifying Questions (Examples)
 
@@ -46,7 +46,7 @@ Assume the primary reader of the Feature Implementation Specification is a **jun
 ## Output
 
 *   **Format:** Markdown (`.md`)
-*   **Location:** `/tasks/`
+*   **Location:** `/tasks/[ticket-id]/`
 *   **Filename:** `[ticket-id]-implementation-specification.md`
 
 ## Final instructions

@@ -41,7 +41,7 @@ Guidelines for reviewing completed work and maintaining a status report that doc
 
 ## Status Report File Format
 
-* Reports must be saved in the `/tasks/` directory.
+* Reports must be saved in the `/tasks/[ticket-id]/` directory.
 
 * File name format: `[ticket-id]-status-report.md`
   **Example:** `T123-status-report.md`
@@ -60,7 +60,7 @@ Guidelines for reviewing completed work and maintaining a status report that doc
 When performing reviews, the AI must:
 
 1. Wait until a milestone or logical task group is completed before generating a report.
-2. Follow the structure above and write the status report in `/tasks/[ticket-id]-status-report.md`.
+2. Follow the structure above and write the status report in `/tasks/[ticket-id]/[ticket-id]/[ticket-id]-status-report.md`.
 3. Verify all task completion statuses directly from the todo list.
 4. Pause after writing the report to await user review and confirmation.
 5. Only proceed with the next task after the user approves the report.
