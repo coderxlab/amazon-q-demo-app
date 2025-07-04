@@ -1,4 +1,4 @@
-# Todo list Management
+# Rule: Todo list Management
 
 Guidelines for managing todo list in markdown files to track progress on completing a feature implementation specification.
 
