@@ -5,7 +5,7 @@ This repository contains demo workflows for Developer that showcase how to use A
 - **Demo Project Overview**: A Next.js application with Supabase authentication and user profiles.
 - **AI-Assisted Development**: Code generation, architecture guidance, and implementation specifications
 - **Document Templates**: Jira ticket templates, implementation specs, and todo lists
-- **MCP Integration**: Jira and Figma
+- **MCP Integration**: Supabase Postgres database, Jira, and Figma
 
 ### Demo Project Overview
 - The diagram below illustrates the workflow for the demo project, starting from reading the ticket on Jira to the feature implementation and testing.
