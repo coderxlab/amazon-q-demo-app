@@ -92,35 +92,10 @@ _Ticket: REG-001_
   - [x] Error message display and clearing
   - [x] Input focus and blur behaviors
 
-#### Integration Test Scenarios 
-- [ ] **Registration Flow Tests**
-  - [x] Complete registration with valid data → success redirect to /login
-  - [ ] Registration with existing email → proper error handling
-  - [ ] Registration with existing username → proper error handling
-  - [ ] Network failure during registration → error handling
-  - [ ] Supabase auth service integration → user creation in database
-
-- [ ] **User Experience Tests**
-  - [ ] Form accessibility (keyboard navigation, screen readers)
-  - [ ] Responsive design on mobile/tablet/desktop
-  - [ ] Navigation between registration and login pages
-  - [ ] Form persistence during page refresh (if applicable)
-
 #### Implementation Tasks
 - [x] Review and approve unit test scenarios
 - [x] Review and approve integration test scenarios
 - [x] Write approved unit tests
-- [ ] Write approved integration tests
-- [ ] Execute all tests and ensure they pass
-
-## Definition of Done
-
-- [ ] Registration form matches Figma design pixel-perfectly
-- [ ] All form validation works correctly with clear error messages
-- [ ] Form integrates with existing Supabase auth system
-- [ ] Responsive design works on mobile, tablet, and desktop
-- [ ] All tests pass (unit and integration)
-- [ ] Code review completed and approved
 
 ## Notes
 
