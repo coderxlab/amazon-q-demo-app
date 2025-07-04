@@ -1,7 +1,3 @@
-Sure! Below is the **completed Cursor Rule** based on your provided **main idea** and **output format**:
-
----
-
 # Work Review and Status Reporting
 
 Guidelines for reviewing completed work and maintaining a status report that documents what has been done, what remains, and any potential issues or divergences from plan.

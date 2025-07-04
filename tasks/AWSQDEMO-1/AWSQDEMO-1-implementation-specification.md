@@ -89,14 +89,6 @@ Implement a user registration form at `/register` route that exactly matches the
 - Integration tests with Playwright for complete registration flow
 - Test responsive design across different screen sizes
 
-## Success Metrics
-
-1. **User Experience**: Registration completion rate > 85%
-2. **Error Reduction**: Form validation errors < 15% of submissions
-3. **Performance**: Page load time < 2 seconds
-4. **Accessibility**: WCAG 2.1 AA compliance score > 95%
-5. **Mobile Usage**: Mobile registration success rate matches desktop
-
 ## Implementation Checklist
 
 - [ ] Set up `/register` route with Next.js App Router
