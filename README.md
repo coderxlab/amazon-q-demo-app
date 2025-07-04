@@ -6,20 +6,27 @@ This repository contains demo workflows for Developer that showcase how to use A
 **Code in the demo video is here: https://github.com/coderxlab/amazon-q-demo-app/pull/2**
 
 ### Features
-- **Demo Project Overview**: A Next.js application with Supabase authentication and user profiles.
+- **Demo Project Overview**: The workflow with AmazonQ for working with A Next.js application with Supabase authentication and user profiles.
 - **AI-Assisted Development**: Code generation, architecture guidance, and implementation specifications
-- **Document Templates**: Jira ticket templates, implementation specs, and todo lists
+- **Document Templates**: Jira ticket templates
 - **MCP Integration**: Supabase Postgres database, Jira, Figma, and playwright
 
 ### Demo Project Overview
-- The diagram below illustrates the workflow for the demo project, starting from reading the ticket on Jira to the feature implementation and testing.
+- The diagram below illustrates the workflow with AmazonQ for the demo project, starting from reading the ticket on Jira to the feature implementation and testing.
 
 ![iScreen Shoter - 20250704141548939](https://github.com/user-attachments/assets/f69ac7f4-04a7-44f9-8454-352e5fb7859c)
 
 
-- **Demo Video**:
-  
-https://vimeo.com/manage/videos/1098697505/6dadcf4ab8
+#### 📁 Important Instruction/Context Paths
+
+| Purpose                        | File Path                                                   |
+|-------------------------------|-------------------------------------------------------------|
+| Feature Implementation Specification Document Generation Prompt | `.amazonq/instructions/create_feature_implementation.md`    |
+| Task List Document Generation Prompt          | `.amazonq/instructions/generate_task_list.md`               |
+| Todo Item Processing Prompt          | `.amazonq/instructions/process_task_list.md`                |
+| Work Review Prompt            | `.amazonq/instructions/do_review.md`                        |
+| Architecture File  (provides Project Context)           | `.amazonq/rules/architecture.md`                            |
+
 
 ### MCP Setup
 - To run the MCP servers, you need to set up the following configurations in your `mcp.json` file. This file should be placed in the `.amazonq` directory of your project.
